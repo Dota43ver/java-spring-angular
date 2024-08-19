@@ -17,7 +17,7 @@ import com.facudev.apirest.crudapi.Entities.Producto;
 import com.facudev.apirest.crudapi.Repositories.ProductoRepository;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://landing-angular-five.vercel.app/"})
 @RequestMapping("/productos")
 public class ProductoController {
 
